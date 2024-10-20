@@ -27,7 +27,7 @@ import Foundation
 import UIKit
 
 // http://stackoverflow.com/questions/2777438/how-to-tell-if-uiviewcontrollers-view-is-visible
-internal extension UIViewController {
+public extension UIViewController {
 
     var isTopAndVisible: Bool {
         return isVisible && isTopViewController
